@@ -47,7 +47,7 @@ namespace SKWorkflowActivities
             }
             else if (searchBy == true) {
                 var opportunity = OpportunityEntity.Get(executionContext);
-                fieldName = opportunity.LogicalName;
+                fieldName = "opportunityid";
                 fieldValue = Convert.ToString(opportunity.Id);
             }
             var entity = CrmUtility.GetEntityByAttribute(service, OpportunityProduct.EntityLogicalName, fieldName, fieldValue, new ColumnSet());
