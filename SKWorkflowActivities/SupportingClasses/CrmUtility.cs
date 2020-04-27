@@ -5,6 +5,10 @@ using Microsoft.Xrm.Sdk.Query;
 
 namespace SKWorkflowActivities
 {
+    /// <summary>
+    ///     (Credit: Mitch Milam at XrmCoaches.com)
+    ///     Common functions to support code activities
+    /// </summary>
     public class CrmUtility
     {
         public static EntityReference GetCrmAdminUser(IOrganizationService service)

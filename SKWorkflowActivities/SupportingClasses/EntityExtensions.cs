@@ -7,7 +7,7 @@ namespace SKWorkflowActivities
     {
         ///<summary> 
         /// Extension method to get an attribute value from the entity  
-        /// or its image snapshot 
+        /// or its image snapshot (Credit: Mitch Milam at XrmCoaches.com)
         ///</summary> 
         ///<typeparam name="T">The attribute type</typeparam> 
         ///<param name="entity">The primary entity</param> 
