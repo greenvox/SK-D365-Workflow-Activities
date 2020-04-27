@@ -1,0 +1,1256 @@
+{
+  "_organizations": [
+    {
+      "OrganizationURL": "https://door.crm.dynamics.com",
+      "HomeRealmUri": "",
+      "OrganizationVersion": "9.1.0.15638",
+      "MFAAppId": "",
+      "MFAReturnUrl": "",
+      "ConnectionProtocol": 0,
+      "_projects": [
+        {
+          "Name": "SKWorkflowActivities.csproj",
+          "NameWithoutExtension": "SKWorkflowActivities",
+          "ProjectPreferences": {
+            "JavaScriptsPath": "\\Web",
+            "TypeScriptsPath": "\\Web",
+            "ImagesPath": "\\Web",
+            "WebFilesPath": "\\Web",
+            "CSSPath": "\\Web",
+            "XslPath": "\\Web",
+            "XmlPath": "\\Web",
+            "SilverlightPath": "\\Xap",
+            "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "SitemapPath": "\\Sitemap",
+            "ChartsPath": "\\Charts",
+            "ViewPath": "\\Views",
+            "ProxyClassesPath": "\\ProxyClasses",
+            "ProxyEnumClassesPath": "\\Enums",
+            "EmailTemplatesPath": "\\EmailTemplates",
+            "ProcessesPath": "\\Processes",
+            "EntityMetadataPath": "\\EntityMetadata",
+            "PluginConfigurationsPath": "\\PluginConfigurations",
+            "BaseProxyClassRelativePath": "\\",
+            "CustomAssemblyConfigPath": "\\AssemblyConfig",
+            "JavaScriptMinification": 1,
+            "CSSMinification": 1,
+            "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+            "ResourcesPath": "\\Web",
+            "ServiceContextName": "CrmServiceContext",
+            "EnumsFileName": "OptionSetEnums",
+            "BaseProxyClassFileName": "BaseProxyClass",
+            "AutoRefreshProxyClassesOnMetadataChanges": true,
+            "PluginPath": "",
+            "WorkflowPath": "",
+            "ProxyClassGenerationOptions": 1,
+            "ProxyClassGenerationMethod": 1,
+            "ProxyClassNamingConvention": 1,
+            "ProxyClassNamingPattern": "{0}",
+            "UseStronglyTypeNameForProxyClassRelatedEntities": true
+          },
+          "_files": [],
+          "ProjectSettings": {
+            "$type": "SS.XrmToolkit.Common.ApplicationObjects.PluginSettings, SS.XrmToolkit.Common",
+            "CopyAttributes": true,
+            "Log": false,
+            "Closed": true,
+            "UseILMerge": false,
+            "ProduceDebugInfo": true,
+            "OverrideCRMReferenceDirectory": false,
+            "CrmReferenceDirectory": "C:\\ProgramData\\Simpler Software\\XrmToolkit\\CRM References\\7.0\\",
+            "ILMergeOuputDirectory": "\\ILMerge",
+            "ILMergeOutputAssemblyName": "SKWorkflowActivities.dll",
+            "OverrideTargetFrameworkLocation": false,
+            "TargetFrameworkLocation": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.5",
+            "AllowDuplicateTypes": false,
+            "AllowDuplicateResources": false,
+            "ILMergeOutputAssemblyFileName": "\\ILMerge\\SKWorkflowActivities.dll",
+            "DuplicateTypes": [],
+            "AssemblyReferences": [],
+            "ReferenceDirectories": [],
+            "PluginAssembly": {
+              "_pluginTypes": [
+                {
+                  "_steps": [],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 2,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "193dd560-5d90-48a5-93ac-081d636d850b",
+                  "Attributes": [
+                    {
+                      "Key": "name",
+                      "Value": "Associate OptionSet Value"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "Associate OptionSet Value"
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "SKWorkflowActivities.AssociateOptionSetValue"
+                    },
+                    {
+                      "Key": "workflowactivitygroupname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0713e8b0-9287-ea11-a812-000d3a347bb9"},"LogicalName":"pluginassembly","Name":"SKWorkflowActivities","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "organizationid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"d41732db-3cb8-42d0-99e3-4121edafb47d"},"LogicalName":"organization","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "assemblyname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "ismanaged",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "customworkflowactivityinfo",
+                      "Value": "\u003c?xml version=\u00221.0\u0022 encoding=\u0022utf-16\u0022?\u003e\r\n\u003cSandboxCustomActivityInfo xmlns:xsd=\u0022http://www.w3.org/2001/XMLSchema\u0022 xmlns:xsi=\u0022http://www.w3.org/2001/XMLSchema-instance\u0022\u003e\r\n  \u003cCustomActivityInfo\u003e\r\n    \u003cName\u003eAssociate OptionSet Value\u003c/Name\u003e\r\n    \u003cPluginTypeId\u003e193dd560-5d90-48a5-93ac-081d636d850b\u003c/PluginTypeId\u003e\r\n    \u003cGroupName\u003eSKWorkflowActivities\u003c/GroupName\u003e\r\n    \u003cIsNet4\u003etrue\u003c/IsNet4\u003e\r\n    \u003cTypeName\u003eSKWorkflowActivities.AssociateOptionSetValue\u003c/TypeName\u003e\r\n    \u003cAssemblyName\u003eSKWorkflowActivities\u003c/AssemblyName\u003e\r\n    \u003cPublicKeyToken\u003e91aea0eed4477798\u003c/PublicKeyToken\u003e\r\n    \u003cCulture\u003eneutral\u003c/Culture\u003e\r\n    \u003cAssemblyVersion\u003e1.0.0.0\u003c/AssemblyVersion\u003e\r\n  \u003c/CustomActivityInfo\u003e\r\n  \u003cInputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eOptionSet Label\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eOptionSetLabel\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eAttribute Name\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eAttributeName\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eRecord Id\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eRecordId\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eEntity Name\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eEntityName\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Inputs\u003e\r\n  \u003cOutputs /\u003e\r\n  \u003cAssemblyQualifiedName\u003eSKWorkflowActivities.AssociateOptionSetValue, SKWorkflowActivities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=91aea0eed4477798\u003c/AssemblyQualifiedName\u003e\r\n  \u003cValidationError /\u003e\r\n\u003c/SandboxCustomActivityInfo\u003e"
+                    },
+                    {
+                      "Key": "solutionid",
+                      "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                    },
+                    {
+                      "Key": "publickeytoken",
+                      "Value": "91aea0eed4477798"
+                    },
+                    {
+                      "Key": "plugintypeid",
+                      "Value": {"$type":"System.Guid","$value":"193dd560-5d90-48a5-93ac-081d636d850b"}
+                    },
+                    {
+                      "Key": "major",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "createdby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "minor",
+                      "Value": {"$type":"System.Int32","$value":0}
+                    },
+                    {
+                      "Key": "plugintypeidunique",
+                      "Value": {"$type":"System.Guid","$value":"0c2f5503-dac7-408f-8515-07cf0377838e"}
+                    },
+                    {
+                      "Key": "componentstate",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                    },
+                    {
+                      "Key": "modifiedon",
+                      "Value": "2020-04-26T08:21:38Z"
+                    },
+                    {
+                      "Key": "culture",
+                      "Value": "neutral"
+                    },
+                    {
+                      "Key": "modifiedby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "version",
+                      "Value": "1.0.0.0"
+                    },
+                    {
+                      "Key": "isworkflowactivity",
+                      "Value": {"$type":"System.Boolean","$value":true}
+                    },
+                    {
+                      "Key": "createdon",
+                      "Value": "2020-04-26T07:51:11Z"
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                },
+                {
+                  "_steps": [],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 2,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "f2ba2497-7d39-488d-b5d8-15abe38194f5",
+                  "Attributes": [
+                    {
+                      "Key": "name",
+                      "Value": "Get Product By Attribute"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "Get Product By Attribute"
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "SKWorkflowActivities.GetProductByAttribute"
+                    },
+                    {
+                      "Key": "workflowactivitygroupname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0713e8b0-9287-ea11-a812-000d3a347bb9"},"LogicalName":"pluginassembly","Name":"SKWorkflowActivities","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "organizationid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"d41732db-3cb8-42d0-99e3-4121edafb47d"},"LogicalName":"organization","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "assemblyname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "ismanaged",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "customworkflowactivityinfo",
+                      "Value": "\u003c?xml version=\u00221.0\u0022 encoding=\u0022utf-16\u0022?\u003e\r\n\u003cSandboxCustomActivityInfo xmlns:xsd=\u0022http://www.w3.org/2001/XMLSchema\u0022 xmlns:xsi=\u0022http://www.w3.org/2001/XMLSchema-instance\u0022\u003e\r\n  \u003cCustomActivityInfo\u003e\r\n    \u003cName\u003eGet Product By Attribute\u003c/Name\u003e\r\n    \u003cPluginTypeId\u003ef2ba2497-7d39-488d-b5d8-15abe38194f5\u003c/PluginTypeId\u003e\r\n    \u003cGroupName\u003eSKWorkflowActivities\u003c/GroupName\u003e\r\n    \u003cIsNet4\u003etrue\u003c/IsNet4\u003e\r\n    \u003cTypeName\u003eSKWorkflowActivities.GetProductByAttribute\u003c/TypeName\u003e\r\n    \u003cAssemblyName\u003eSKWorkflowActivities\u003c/AssemblyName\u003e\r\n    \u003cPublicKeyToken\u003e91aea0eed4477798\u003c/PublicKeyToken\u003e\r\n    \u003cCulture\u003eneutral\u003c/Culture\u003e\r\n    \u003cAssemblyVersion\u003e1.0.0.0\u003c/AssemblyVersion\u003e\r\n  \u003c/CustomActivityInfo\u003e\r\n  \u003cInputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eAttribute Value\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldValue\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eAttribute Name\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldName\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Inputs\u003e\r\n  \u003cOutputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eProduct\u003c/Name\u003e\r\n      \u003cTypeName\u003eMicrosoft.Crm.Sdk.Lookup, Microsoft.Crm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eProductEntity\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames\u003e\r\n        \u003cstring\u003eproduct\u003c/string\u003e\r\n      \u003c/EntityNames\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eStatus\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eStatus\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Outputs\u003e\r\n  \u003cAssemblyQualifiedName\u003eSKWorkflowActivities.GetProductByAttribute, SKWorkflowActivities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=91aea0eed4477798\u003c/AssemblyQualifiedName\u003e\r\n  \u003cValidationError /\u003e\r\n\u003c/SandboxCustomActivityInfo\u003e"
+                    },
+                    {
+                      "Key": "solutionid",
+                      "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                    },
+                    {
+                      "Key": "publickeytoken",
+                      "Value": "91aea0eed4477798"
+                    },
+                    {
+                      "Key": "plugintypeid",
+                      "Value": {"$type":"System.Guid","$value":"f2ba2497-7d39-488d-b5d8-15abe38194f5"}
+                    },
+                    {
+                      "Key": "major",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "createdby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "minor",
+                      "Value": {"$type":"System.Int32","$value":0}
+                    },
+                    {
+                      "Key": "plugintypeidunique",
+                      "Value": {"$type":"System.Guid","$value":"f146de87-2005-46ab-8d84-68d639f8956f"}
+                    },
+                    {
+                      "Key": "componentstate",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                    },
+                    {
+                      "Key": "modifiedon",
+                      "Value": "2020-04-26T08:22:20Z"
+                    },
+                    {
+                      "Key": "culture",
+                      "Value": "neutral"
+                    },
+                    {
+                      "Key": "modifiedby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "version",
+                      "Value": "1.0.0.0"
+                    },
+                    {
+                      "Key": "isworkflowactivity",
+                      "Value": {"$type":"System.Boolean","$value":true}
+                    },
+                    {
+                      "Key": "createdon",
+                      "Value": "2020-04-26T07:51:12Z"
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                },
+                {
+                  "_steps": [],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 2,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "f0746a35-02dd-4e46-86ae-1de3b8c29154",
+                  "Attributes": [
+                    {
+                      "Key": "name",
+                      "Value": "Get String By Value"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "Get String By Value"
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "SKWorkflowActivities.GetStringByValue"
+                    },
+                    {
+                      "Key": "workflowactivitygroupname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0713e8b0-9287-ea11-a812-000d3a347bb9"},"LogicalName":"pluginassembly","Name":"SKWorkflowActivities","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "organizationid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"d41732db-3cb8-42d0-99e3-4121edafb47d"},"LogicalName":"organization","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "assemblyname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "ismanaged",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "customworkflowactivityinfo",
+                      "Value": "\u003c?xml version=\u00221.0\u0022 encoding=\u0022utf-16\u0022?\u003e\r\n\u003cSandboxCustomActivityInfo xmlns:xsd=\u0022http://www.w3.org/2001/XMLSchema\u0022 xmlns:xsi=\u0022http://www.w3.org/2001/XMLSchema-instance\u0022\u003e\r\n  \u003cCustomActivityInfo\u003e\r\n    \u003cName\u003eGet String By Value\u003c/Name\u003e\r\n    \u003cPluginTypeId\u003ef0746a35-02dd-4e46-86ae-1de3b8c29154\u003c/PluginTypeId\u003e\r\n    \u003cGroupName\u003eSKWorkflowActivities\u003c/GroupName\u003e\r\n    \u003cIsNet4\u003etrue\u003c/IsNet4\u003e\r\n    \u003cTypeName\u003eSKWorkflowActivities.GetStringByValue\u003c/TypeName\u003e\r\n    \u003cAssemblyName\u003eSKWorkflowActivities\u003c/AssemblyName\u003e\r\n    \u003cPublicKeyToken\u003e91aea0eed4477798\u003c/PublicKeyToken\u003e\r\n    \u003cCulture\u003eneutral\u003c/Culture\u003e\r\n    \u003cAssemblyVersion\u003e1.0.0.0\u003c/AssemblyVersion\u003e\r\n  \u003c/CustomActivityInfo\u003e\r\n  \u003cInputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eSearch Value\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldValue\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eSearch Field\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldName\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eSearch Entity\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldEntity\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eResult Field\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eResultField\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eFilter Condition\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFilter\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cDefaultValue xsi:type=\u0022xsd:string\u0022\u003eand\u003c/DefaultValue\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eAdditional Fetch Conditions\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFetchFilters\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Inputs\u003e\r\n  \u003cOutputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eResponse\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eResponse\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eStatus\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eStatus\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Outputs\u003e\r\n  \u003cAssemblyQualifiedName\u003eSKWorkflowActivities.GetStringByValue, SKWorkflowActivities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=91aea0eed4477798\u003c/AssemblyQualifiedName\u003e\r\n  \u003cValidationError /\u003e\r\n\u003c/SandboxCustomActivityInfo\u003e"
+                    },
+                    {
+                      "Key": "solutionid",
+                      "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                    },
+                    {
+                      "Key": "publickeytoken",
+                      "Value": "91aea0eed4477798"
+                    },
+                    {
+                      "Key": "plugintypeid",
+                      "Value": {"$type":"System.Guid","$value":"f0746a35-02dd-4e46-86ae-1de3b8c29154"}
+                    },
+                    {
+                      "Key": "major",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "createdby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "minor",
+                      "Value": {"$type":"System.Int32","$value":0}
+                    },
+                    {
+                      "Key": "plugintypeidunique",
+                      "Value": {"$type":"System.Guid","$value":"19e01a42-21fe-426e-950a-82363d7c5109"}
+                    },
+                    {
+                      "Key": "componentstate",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                    },
+                    {
+                      "Key": "modifiedon",
+                      "Value": "2020-04-26T08:22:25Z"
+                    },
+                    {
+                      "Key": "culture",
+                      "Value": "neutral"
+                    },
+                    {
+                      "Key": "modifiedby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "version",
+                      "Value": "1.0.0.0"
+                    },
+                    {
+                      "Key": "isworkflowactivity",
+                      "Value": {"$type":"System.Boolean","$value":true}
+                    },
+                    {
+                      "Key": "createdon",
+                      "Value": "2020-04-26T07:51:13Z"
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                },
+                {
+                  "_steps": [],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 2,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "2f6addda-ec40-41a2-b06c-78d61e88b826",
+                  "Attributes": [
+                    {
+                      "Key": "name",
+                      "Value": "Get User By Attribute"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "Get User By Attribute"
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "SKWorkflowActivities.GetUserByAttribute"
+                    },
+                    {
+                      "Key": "workflowactivitygroupname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0713e8b0-9287-ea11-a812-000d3a347bb9"},"LogicalName":"pluginassembly","Name":"SKWorkflowActivities","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "organizationid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"d41732db-3cb8-42d0-99e3-4121edafb47d"},"LogicalName":"organization","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "assemblyname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "ismanaged",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "customworkflowactivityinfo",
+                      "Value": "\u003c?xml version=\u00221.0\u0022 encoding=\u0022utf-16\u0022?\u003e\r\n\u003cSandboxCustomActivityInfo xmlns:xsd=\u0022http://www.w3.org/2001/XMLSchema\u0022 xmlns:xsi=\u0022http://www.w3.org/2001/XMLSchema-instance\u0022\u003e\r\n  \u003cCustomActivityInfo\u003e\r\n    \u003cName\u003eGet User By Attribute\u003c/Name\u003e\r\n    \u003cPluginTypeId\u003e2f6addda-ec40-41a2-b06c-78d61e88b826\u003c/PluginTypeId\u003e\r\n    \u003cGroupName\u003eSKWorkflowActivities\u003c/GroupName\u003e\r\n    \u003cIsNet4\u003etrue\u003c/IsNet4\u003e\r\n    \u003cTypeName\u003eSKWorkflowActivities.GetUserByAttribute\u003c/TypeName\u003e\r\n    \u003cAssemblyName\u003eSKWorkflowActivities\u003c/AssemblyName\u003e\r\n    \u003cPublicKeyToken\u003e91aea0eed4477798\u003c/PublicKeyToken\u003e\r\n    \u003cCulture\u003eneutral\u003c/Culture\u003e\r\n    \u003cAssemblyVersion\u003e1.0.0.0\u003c/AssemblyVersion\u003e\r\n  \u003c/CustomActivityInfo\u003e\r\n  \u003cInputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eAttribute Value\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldValue\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eAttribute Name\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldName\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Inputs\u003e\r\n  \u003cOutputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eSystem User\u003c/Name\u003e\r\n      \u003cTypeName\u003eMicrosoft.Crm.Sdk.Lookup, Microsoft.Crm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eSystemUserEntity\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames\u003e\r\n        \u003cstring\u003esystemuser\u003c/string\u003e\r\n      \u003c/EntityNames\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Outputs\u003e\r\n  \u003cAssemblyQualifiedName\u003eSKWorkflowActivities.GetUserByAttribute, SKWorkflowActivities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=91aea0eed4477798\u003c/AssemblyQualifiedName\u003e\r\n  \u003cValidationError /\u003e\r\n\u003c/SandboxCustomActivityInfo\u003e"
+                    },
+                    {
+                      "Key": "solutionid",
+                      "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                    },
+                    {
+                      "Key": "publickeytoken",
+                      "Value": "91aea0eed4477798"
+                    },
+                    {
+                      "Key": "plugintypeid",
+                      "Value": {"$type":"System.Guid","$value":"2f6addda-ec40-41a2-b06c-78d61e88b826"}
+                    },
+                    {
+                      "Key": "major",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "createdby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "minor",
+                      "Value": {"$type":"System.Int32","$value":0}
+                    },
+                    {
+                      "Key": "plugintypeidunique",
+                      "Value": {"$type":"System.Guid","$value":"e021ff20-f335-45f0-8511-e5ec490a1b7e"}
+                    },
+                    {
+                      "Key": "componentstate",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                    },
+                    {
+                      "Key": "modifiedon",
+                      "Value": "2020-04-26T08:22:33Z"
+                    },
+                    {
+                      "Key": "culture",
+                      "Value": "neutral"
+                    },
+                    {
+                      "Key": "modifiedby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "version",
+                      "Value": "1.0.0.0"
+                    },
+                    {
+                      "Key": "isworkflowactivity",
+                      "Value": {"$type":"System.Boolean","$value":true}
+                    },
+                    {
+                      "Key": "createdon",
+                      "Value": "2020-04-26T07:51:13Z"
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                },
+                {
+                  "_steps": [],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 2,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "a213709c-0878-426a-b382-7560c7049527",
+                  "Attributes": [
+                    {
+                      "Key": "name",
+                      "Value": "File Upload"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "File Upload"
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "SKWorkflowActivities.FileUpload"
+                    },
+                    {
+                      "Key": "workflowactivitygroupname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0713e8b0-9287-ea11-a812-000d3a347bb9"},"LogicalName":"pluginassembly","Name":"SKWorkflowActivities","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "organizationid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"d41732db-3cb8-42d0-99e3-4121edafb47d"},"LogicalName":"organization","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "assemblyname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "ismanaged",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "customworkflowactivityinfo",
+                      "Value": "\u003c?xml version=\u00221.0\u0022 encoding=\u0022utf-16\u0022?\u003e\r\n\u003cSandboxCustomActivityInfo xmlns:xsd=\u0022http://www.w3.org/2001/XMLSchema\u0022 xmlns:xsi=\u0022http://www.w3.org/2001/XMLSchema-instance\u0022\u003e\r\n  \u003cCustomActivityInfo\u003e\r\n    \u003cName\u003eFile Upload\u003c/Name\u003e\r\n    \u003cPluginTypeId\u003ea213709c-0878-426a-b382-7560c7049527\u003c/PluginTypeId\u003e\r\n    \u003cGroupName\u003eSKWorkflowActivities\u003c/GroupName\u003e\r\n    \u003cIsNet4\u003etrue\u003c/IsNet4\u003e\r\n    \u003cTypeName\u003eSKWorkflowActivities.FileUpload\u003c/TypeName\u003e\r\n    \u003cAssemblyName\u003eSKWorkflowActivities\u003c/AssemblyName\u003e\r\n    \u003cPublicKeyToken\u003e91aea0eed4477798\u003c/PublicKeyToken\u003e\r\n    \u003cCulture\u003eneutral\u003c/Culture\u003e\r\n    \u003cAssemblyVersion\u003e1.0.0.0\u003c/AssemblyVersion\u003e\r\n  \u003c/CustomActivityInfo\u003e\r\n  \u003cInputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003edocumentbody\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003edocumentbody\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003efilename\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003efilename\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003esubject\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003esubject\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cDefaultValue xsi:type=\u0022xsd:string\u0022\u003eRelated Upload\u003c/DefaultValue\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003enotetext\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003enotetext\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cDefaultValue xsi:type=\u0022xsd:string\u0022\u003eFile Uploaded Externally.\u003c/DefaultValue\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eobjecttypecode\u003c/Name\u003e\r\n      \u003cTypeName\u003eMicrosoft.Crm.Sdk.CrmNumber, Microsoft.Crm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eobjecttypecode\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cDefaultValue xmlns:q1=\u0022http://schemas.microsoft.com/crm/2006/WebServices\u0022 xsi:type=\u0022q1:CrmNumber\u0022\u003e3\u003c/DefaultValue\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003emimetype\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003emimetype\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cDefaultValue xsi:type=\u0022xsd:string\u0022\u003etext/plain\u003c/DefaultValue\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eisdocument\u003c/Name\u003e\r\n      \u003cTypeName\u003eMicrosoft.Crm.Sdk.CrmBoolean, Microsoft.Crm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eisdocument\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cDefaultValue xmlns:q2=\u0022http://schemas.microsoft.com/crm/2006/WebServices\u0022 xsi:type=\u0022q2:CrmBoolean\u0022\u003etrue\u003c/DefaultValue\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003erecordid\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003erecordid\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eentityname\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eentityname\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Inputs\u003e\r\n  \u003cOutputs /\u003e\r\n  \u003cAssemblyQualifiedName\u003eSKWorkflowActivities.FileUpload, SKWorkflowActivities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=91aea0eed4477798\u003c/AssemblyQualifiedName\u003e\r\n  \u003cValidationError /\u003e\r\n\u003c/SandboxCustomActivityInfo\u003e"
+                    },
+                    {
+                      "Key": "solutionid",
+                      "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                    },
+                    {
+                      "Key": "publickeytoken",
+                      "Value": "91aea0eed4477798"
+                    },
+                    {
+                      "Key": "plugintypeid",
+                      "Value": {"$type":"System.Guid","$value":"a213709c-0878-426a-b382-7560c7049527"}
+                    },
+                    {
+                      "Key": "major",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "createdby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "minor",
+                      "Value": {"$type":"System.Int32","$value":0}
+                    },
+                    {
+                      "Key": "plugintypeidunique",
+                      "Value": {"$type":"System.Guid","$value":"a10bf1bb-6886-4365-b354-4a7c25a9e691"}
+                    },
+                    {
+                      "Key": "componentstate",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                    },
+                    {
+                      "Key": "modifiedon",
+                      "Value": "2020-04-26T08:21:50Z"
+                    },
+                    {
+                      "Key": "culture",
+                      "Value": "neutral"
+                    },
+                    {
+                      "Key": "modifiedby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "version",
+                      "Value": "1.0.0.0"
+                    },
+                    {
+                      "Key": "isworkflowactivity",
+                      "Value": {"$type":"System.Boolean","$value":true}
+                    },
+                    {
+                      "Key": "createdon",
+                      "Value": "2020-04-26T07:51:14Z"
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                },
+                {
+                  "_steps": [],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 2,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "6893d84a-69e6-46d8-bd7d-fc9438603073",
+                  "Attributes": [
+                    {
+                      "Key": "name",
+                      "Value": "Email User On Post Mention"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "Email User On Post Mention"
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "SKWorkflowActivities.EmailUserOnPostMention"
+                    },
+                    {
+                      "Key": "workflowactivitygroupname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0713e8b0-9287-ea11-a812-000d3a347bb9"},"LogicalName":"pluginassembly","Name":"SKWorkflowActivities","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "organizationid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"d41732db-3cb8-42d0-99e3-4121edafb47d"},"LogicalName":"organization","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "assemblyname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "ismanaged",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "customworkflowactivityinfo",
+                      "Value": "\u003c?xml version=\u00221.0\u0022 encoding=\u0022utf-16\u0022?\u003e\r\n\u003cSandboxCustomActivityInfo xmlns:xsd=\u0022http://www.w3.org/2001/XMLSchema\u0022 xmlns:xsi=\u0022http://www.w3.org/2001/XMLSchema-instance\u0022\u003e\r\n  \u003cCustomActivityInfo\u003e\r\n    \u003cName\u003eEmail User On Post Mention\u003c/Name\u003e\r\n    \u003cPluginTypeId\u003e6893d84a-69e6-46d8-bd7d-fc9438603073\u003c/PluginTypeId\u003e\r\n    \u003cGroupName\u003eSKWorkflowActivities\u003c/GroupName\u003e\r\n    \u003cIsNet4\u003etrue\u003c/IsNet4\u003e\r\n    \u003cTypeName\u003eSKWorkflowActivities.EmailUserOnPostMention\u003c/TypeName\u003e\r\n    \u003cAssemblyName\u003eSKWorkflowActivities\u003c/AssemblyName\u003e\r\n    \u003cPublicKeyToken\u003e91aea0eed4477798\u003c/PublicKeyToken\u003e\r\n    \u003cCulture\u003eneutral\u003c/Culture\u003e\r\n    \u003cAssemblyVersion\u003e1.0.0.0\u003c/AssemblyVersion\u003e\r\n  \u003c/CustomActivityInfo\u003e\r\n  \u003cInputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eURL Prefix\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eUrlPrefix\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Inputs\u003e\r\n  \u003cOutputs /\u003e\r\n  \u003cAssemblyQualifiedName\u003eSKWorkflowActivities.EmailUserOnPostMention, SKWorkflowActivities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=91aea0eed4477798\u003c/AssemblyQualifiedName\u003e\r\n  \u003cValidationError /\u003e\r\n\u003c/SandboxCustomActivityInfo\u003e"
+                    },
+                    {
+                      "Key": "solutionid",
+                      "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                    },
+                    {
+                      "Key": "publickeytoken",
+                      "Value": "91aea0eed4477798"
+                    },
+                    {
+                      "Key": "plugintypeid",
+                      "Value": {"$type":"System.Guid","$value":"6893d84a-69e6-46d8-bd7d-fc9438603073"}
+                    },
+                    {
+                      "Key": "major",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "createdby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "minor",
+                      "Value": {"$type":"System.Int32","$value":0}
+                    },
+                    {
+                      "Key": "plugintypeidunique",
+                      "Value": {"$type":"System.Guid","$value":"d7ffa797-7419-4760-82ec-aa4d9735882b"}
+                    },
+                    {
+                      "Key": "componentstate",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                    },
+                    {
+                      "Key": "modifiedon",
+                      "Value": "2020-04-26T08:21:45Z"
+                    },
+                    {
+                      "Key": "culture",
+                      "Value": "neutral"
+                    },
+                    {
+                      "Key": "modifiedby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "version",
+                      "Value": "1.0.0.0"
+                    },
+                    {
+                      "Key": "isworkflowactivity",
+                      "Value": {"$type":"System.Boolean","$value":true}
+                    },
+                    {
+                      "Key": "createdon",
+                      "Value": "2020-04-26T07:51:14Z"
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                },
+                {
+                  "_steps": [],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 2,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "a64ad376-3261-414f-b083-7fe9cbc52d7f",
+                  "Attributes": [
+                    {
+                      "Key": "name",
+                      "Value": "Get Lead By Attribute"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "Get Lead By Attribute"
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "SKWorkflowActivities.GetLeadByAttribute"
+                    },
+                    {
+                      "Key": "workflowactivitygroupname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0713e8b0-9287-ea11-a812-000d3a347bb9"},"LogicalName":"pluginassembly","Name":"SKWorkflowActivities","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "organizationid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"d41732db-3cb8-42d0-99e3-4121edafb47d"},"LogicalName":"organization","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "assemblyname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "ismanaged",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "customworkflowactivityinfo",
+                      "Value": "\u003c?xml version=\u00221.0\u0022 encoding=\u0022utf-16\u0022?\u003e\r\n\u003cSandboxCustomActivityInfo xmlns:xsd=\u0022http://www.w3.org/2001/XMLSchema\u0022 xmlns:xsi=\u0022http://www.w3.org/2001/XMLSchema-instance\u0022\u003e\r\n  \u003cCustomActivityInfo\u003e\r\n    \u003cName\u003eGet Lead By Attribute\u003c/Name\u003e\r\n    \u003cPluginTypeId\u003ea64ad376-3261-414f-b083-7fe9cbc52d7f\u003c/PluginTypeId\u003e\r\n    \u003cGroupName\u003eSKWorkflowActivities\u003c/GroupName\u003e\r\n    \u003cIsNet4\u003etrue\u003c/IsNet4\u003e\r\n    \u003cTypeName\u003eSKWorkflowActivities.GetLeadByAttribute\u003c/TypeName\u003e\r\n    \u003cAssemblyName\u003eSKWorkflowActivities\u003c/AssemblyName\u003e\r\n    \u003cPublicKeyToken\u003e91aea0eed4477798\u003c/PublicKeyToken\u003e\r\n    \u003cCulture\u003eneutral\u003c/Culture\u003e\r\n    \u003cAssemblyVersion\u003e1.0.0.0\u003c/AssemblyVersion\u003e\r\n  \u003c/CustomActivityInfo\u003e\r\n  \u003cInputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eAttribute Value\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldValue\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eAttribute Name\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldName\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Inputs\u003e\r\n  \u003cOutputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eLead\u003c/Name\u003e\r\n      \u003cTypeName\u003eMicrosoft.Crm.Sdk.Lookup, Microsoft.Crm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eLeadEntity\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames\u003e\r\n        \u003cstring\u003elead\u003c/string\u003e\r\n      \u003c/EntityNames\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eStatus\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eStatus\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Outputs\u003e\r\n  \u003cAssemblyQualifiedName\u003eSKWorkflowActivities.GetLeadByAttribute, SKWorkflowActivities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=91aea0eed4477798\u003c/AssemblyQualifiedName\u003e\r\n  \u003cValidationError /\u003e\r\n\u003c/SandboxCustomActivityInfo\u003e"
+                    },
+                    {
+                      "Key": "solutionid",
+                      "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                    },
+                    {
+                      "Key": "publickeytoken",
+                      "Value": "91aea0eed4477798"
+                    },
+                    {
+                      "Key": "plugintypeid",
+                      "Value": {"$type":"System.Guid","$value":"a64ad376-3261-414f-b083-7fe9cbc52d7f"}
+                    },
+                    {
+                      "Key": "major",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "createdby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "minor",
+                      "Value": {"$type":"System.Int32","$value":0}
+                    },
+                    {
+                      "Key": "plugintypeidunique",
+                      "Value": {"$type":"System.Guid","$value":"9fb773ec-972a-42b5-b20c-365436716237"}
+                    },
+                    {
+                      "Key": "componentstate",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                    },
+                    {
+                      "Key": "modifiedon",
+                      "Value": "2020-04-26T08:22:02Z"
+                    },
+                    {
+                      "Key": "culture",
+                      "Value": "neutral"
+                    },
+                    {
+                      "Key": "modifiedby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "version",
+                      "Value": "1.0.0.0"
+                    },
+                    {
+                      "Key": "isworkflowactivity",
+                      "Value": {"$type":"System.Boolean","$value":true}
+                    },
+                    {
+                      "Key": "createdon",
+                      "Value": "2020-04-26T07:51:15Z"
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                },
+                {
+                  "_steps": [],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 2,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "f8fd0111-ee15-4a41-bfc6-b17e62a8d087",
+                  "Attributes": [
+                    {
+                      "Key": "name",
+                      "Value": "Get Opportunity By Attribute"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "Get Opportunity By Attribute"
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "SKWorkflowActivities.GetOpportunityByAttribute"
+                    },
+                    {
+                      "Key": "workflowactivitygroupname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0713e8b0-9287-ea11-a812-000d3a347bb9"},"LogicalName":"pluginassembly","Name":"SKWorkflowActivities","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "organizationid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"d41732db-3cb8-42d0-99e3-4121edafb47d"},"LogicalName":"organization","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "assemblyname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "ismanaged",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "customworkflowactivityinfo",
+                      "Value": "\u003c?xml version=\u00221.0\u0022 encoding=\u0022utf-16\u0022?\u003e\r\n\u003cSandboxCustomActivityInfo xmlns:xsd=\u0022http://www.w3.org/2001/XMLSchema\u0022 xmlns:xsi=\u0022http://www.w3.org/2001/XMLSchema-instance\u0022\u003e\r\n  \u003cCustomActivityInfo\u003e\r\n    \u003cName\u003eGet Opportunity By Attribute\u003c/Name\u003e\r\n    \u003cPluginTypeId\u003ef8fd0111-ee15-4a41-bfc6-b17e62a8d087\u003c/PluginTypeId\u003e\r\n    \u003cGroupName\u003eSKWorkflowActivities\u003c/GroupName\u003e\r\n    \u003cIsNet4\u003etrue\u003c/IsNet4\u003e\r\n    \u003cTypeName\u003eSKWorkflowActivities.GetOpportunityByAttribute\u003c/TypeName\u003e\r\n    \u003cAssemblyName\u003eSKWorkflowActivities\u003c/AssemblyName\u003e\r\n    \u003cPublicKeyToken\u003e91aea0eed4477798\u003c/PublicKeyToken\u003e\r\n    \u003cCulture\u003eneutral\u003c/Culture\u003e\r\n    \u003cAssemblyVersion\u003e1.0.0.0\u003c/AssemblyVersion\u003e\r\n  \u003c/CustomActivityInfo\u003e\r\n  \u003cInputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eAttribute Value\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldValue\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eAttribute Name\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldName\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Inputs\u003e\r\n  \u003cOutputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eOpportunity\u003c/Name\u003e\r\n      \u003cTypeName\u003eMicrosoft.Crm.Sdk.Lookup, Microsoft.Crm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eOpportunityEntity\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames\u003e\r\n        \u003cstring\u003eopportunity\u003c/string\u003e\r\n      \u003c/EntityNames\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eContact\u003c/Name\u003e\r\n      \u003cTypeName\u003eMicrosoft.Crm.Sdk.Lookup, Microsoft.Crm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eContactEntity\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames\u003e\r\n        \u003cstring\u003econtact\u003c/string\u003e\r\n      \u003c/EntityNames\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Outputs\u003e\r\n  \u003cAssemblyQualifiedName\u003eSKWorkflowActivities.GetOpportunityByAttribute, SKWorkflowActivities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=91aea0eed4477798\u003c/AssemblyQualifiedName\u003e\r\n  \u003cValidationError /\u003e\r\n\u003c/SandboxCustomActivityInfo\u003e"
+                    },
+                    {
+                      "Key": "solutionid",
+                      "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                    },
+                    {
+                      "Key": "publickeytoken",
+                      "Value": "91aea0eed4477798"
+                    },
+                    {
+                      "Key": "plugintypeid",
+                      "Value": {"$type":"System.Guid","$value":"f8fd0111-ee15-4a41-bfc6-b17e62a8d087"}
+                    },
+                    {
+                      "Key": "major",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "createdby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "minor",
+                      "Value": {"$type":"System.Int32","$value":0}
+                    },
+                    {
+                      "Key": "plugintypeidunique",
+                      "Value": {"$type":"System.Guid","$value":"76e8280d-ebfa-4751-8000-a58049c5fbb8"}
+                    },
+                    {
+                      "Key": "componentstate",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                    },
+                    {
+                      "Key": "modifiedon",
+                      "Value": "2020-04-26T08:22:07Z"
+                    },
+                    {
+                      "Key": "culture",
+                      "Value": "neutral"
+                    },
+                    {
+                      "Key": "modifiedby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "version",
+                      "Value": "1.0.0.0"
+                    },
+                    {
+                      "Key": "isworkflowactivity",
+                      "Value": {"$type":"System.Boolean","$value":true}
+                    },
+                    {
+                      "Key": "createdon",
+                      "Value": "2020-04-26T07:51:16Z"
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                },
+                {
+                  "_steps": [],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 2,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "aff4c834-5500-44b2-9df7-7fd583122862",
+                  "Attributes": [
+                    {
+                      "Key": "name",
+                      "Value": "Get Contact By Attribute"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "Get Contact By Attribute"
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "SKWorkflowActivities.GetContactByAttribute"
+                    },
+                    {
+                      "Key": "workflowactivitygroupname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0713e8b0-9287-ea11-a812-000d3a347bb9"},"LogicalName":"pluginassembly","Name":"SKWorkflowActivities","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "organizationid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"d41732db-3cb8-42d0-99e3-4121edafb47d"},"LogicalName":"organization","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "assemblyname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "ismanaged",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "customworkflowactivityinfo",
+                      "Value": "\u003c?xml version=\u00221.0\u0022 encoding=\u0022utf-16\u0022?\u003e\r\n\u003cSandboxCustomActivityInfo xmlns:xsd=\u0022http://www.w3.org/2001/XMLSchema\u0022 xmlns:xsi=\u0022http://www.w3.org/2001/XMLSchema-instance\u0022\u003e\r\n  \u003cCustomActivityInfo\u003e\r\n    \u003cName\u003eGet Contact By Attribute\u003c/Name\u003e\r\n    \u003cPluginTypeId\u003eaff4c834-5500-44b2-9df7-7fd583122862\u003c/PluginTypeId\u003e\r\n    \u003cGroupName\u003eSKWorkflowActivities\u003c/GroupName\u003e\r\n    \u003cIsNet4\u003etrue\u003c/IsNet4\u003e\r\n    \u003cTypeName\u003eSKWorkflowActivities.GetContactByAttribute\u003c/TypeName\u003e\r\n    \u003cAssemblyName\u003eSKWorkflowActivities\u003c/AssemblyName\u003e\r\n    \u003cPublicKeyToken\u003e91aea0eed4477798\u003c/PublicKeyToken\u003e\r\n    \u003cCulture\u003eneutral\u003c/Culture\u003e\r\n    \u003cAssemblyVersion\u003e1.0.0.0\u003c/AssemblyVersion\u003e\r\n  \u003c/CustomActivityInfo\u003e\r\n  \u003cInputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eAttribute Value\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldValue\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eAttribute Name\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldName\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Inputs\u003e\r\n  \u003cOutputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eContact\u003c/Name\u003e\r\n      \u003cTypeName\u003eMicrosoft.Crm.Sdk.Lookup, Microsoft.Crm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eContactEntity\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames\u003e\r\n        \u003cstring\u003econtact\u003c/string\u003e\r\n      \u003c/EntityNames\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Outputs\u003e\r\n  \u003cAssemblyQualifiedName\u003eSKWorkflowActivities.GetContactByAttribute, SKWorkflowActivities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=91aea0eed4477798\u003c/AssemblyQualifiedName\u003e\r\n  \u003cValidationError /\u003e\r\n\u003c/SandboxCustomActivityInfo\u003e"
+                    },
+                    {
+                      "Key": "solutionid",
+                      "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                    },
+                    {
+                      "Key": "publickeytoken",
+                      "Value": "91aea0eed4477798"
+                    },
+                    {
+                      "Key": "plugintypeid",
+                      "Value": {"$type":"System.Guid","$value":"aff4c834-5500-44b2-9df7-7fd583122862"}
+                    },
+                    {
+                      "Key": "major",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "createdby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "minor",
+                      "Value": {"$type":"System.Int32","$value":0}
+                    },
+                    {
+                      "Key": "plugintypeidunique",
+                      "Value": {"$type":"System.Guid","$value":"d732a75e-2095-410f-b39d-b4b6e8ffcde2"}
+                    },
+                    {
+                      "Key": "componentstate",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                    },
+                    {
+                      "Key": "modifiedon",
+                      "Value": "2020-04-26T08:21:56Z"
+                    },
+                    {
+                      "Key": "culture",
+                      "Value": "neutral"
+                    },
+                    {
+                      "Key": "modifiedby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "version",
+                      "Value": "1.0.0.0"
+                    },
+                    {
+                      "Key": "isworkflowactivity",
+                      "Value": {"$type":"System.Boolean","$value":true}
+                    },
+                    {
+                      "Key": "createdon",
+                      "Value": "2020-04-26T07:51:16Z"
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                },
+                {
+                  "_steps": [],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 2,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "f079a425-78a9-428f-8798-bcea48c6d1ba",
+                  "Attributes": [
+                    {
+                      "Key": "name",
+                      "Value": "Get Opportunity Product By Attribute"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "Get Opportunity Product By Attribute"
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "SKWorkflowActivities.GetOpportunityProductByAttribute"
+                    },
+                    {
+                      "Key": "workflowactivitygroupname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0713e8b0-9287-ea11-a812-000d3a347bb9"},"LogicalName":"pluginassembly","Name":"SKWorkflowActivities","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "organizationid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"d41732db-3cb8-42d0-99e3-4121edafb47d"},"LogicalName":"organization","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "assemblyname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "ismanaged",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "customworkflowactivityinfo",
+                      "Value": "\u003c?xml version=\u00221.0\u0022 encoding=\u0022utf-16\u0022?\u003e\r\n\u003cSandboxCustomActivityInfo xmlns:xsd=\u0022http://www.w3.org/2001/XMLSchema\u0022 xmlns:xsi=\u0022http://www.w3.org/2001/XMLSchema-instance\u0022\u003e\r\n  \u003cCustomActivityInfo\u003e\r\n    \u003cName\u003eGet Opportunity Product By Attribute\u003c/Name\u003e\r\n    \u003cPluginTypeId\u003ef079a425-78a9-428f-8798-bcea48c6d1ba\u003c/PluginTypeId\u003e\r\n    \u003cGroupName\u003eSKWorkflowActivities\u003c/GroupName\u003e\r\n    \u003cIsNet4\u003etrue\u003c/IsNet4\u003e\r\n    \u003cTypeName\u003eSKWorkflowActivities.GetOpportunityProductByAttribute\u003c/TypeName\u003e\r\n    \u003cAssemblyName\u003eSKWorkflowActivities\u003c/AssemblyName\u003e\r\n    \u003cPublicKeyToken\u003e91aea0eed4477798\u003c/PublicKeyToken\u003e\r\n    \u003cCulture\u003eneutral\u003c/Culture\u003e\r\n    \u003cAssemblyVersion\u003e1.0.0.0\u003c/AssemblyVersion\u003e\r\n  \u003c/CustomActivityInfo\u003e\r\n  \u003cInputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eAttribute Value\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldValue\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eAttribute Name\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eFieldName\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eOpportunity\u003c/Name\u003e\r\n      \u003cTypeName\u003eMicrosoft.Crm.Sdk.Lookup, Microsoft.Crm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eOpportunityEntity\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames\u003e\r\n        \u003cstring\u003eopportunity\u003c/string\u003e\r\n      \u003c/EntityNames\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eSearch By Opportunity?\u003c/Name\u003e\r\n      \u003cTypeName\u003eMicrosoft.Crm.Sdk.CrmBoolean, Microsoft.Crm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003etrue\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eSearchBy\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Inputs\u003e\r\n  \u003cOutputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eOpportunity Product\u003c/Name\u003e\r\n      \u003cTypeName\u003eMicrosoft.Crm.Sdk.Lookup, Microsoft.Crm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eOpportunityProductEntity\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames\u003e\r\n        \u003cstring\u003eopportunityproduct\u003c/string\u003e\r\n      \u003c/EntityNames\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eStatus\u003c/Name\u003e\r\n      \u003cTypeName\u003eSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003efalse\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eStatus\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames /\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Outputs\u003e\r\n  \u003cAssemblyQualifiedName\u003eSKWorkflowActivities.GetOpportunityProductByAttribute, SKWorkflowActivities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=91aea0eed4477798\u003c/AssemblyQualifiedName\u003e\r\n  \u003cValidationError /\u003e\r\n\u003c/SandboxCustomActivityInfo\u003e"
+                    },
+                    {
+                      "Key": "solutionid",
+                      "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                    },
+                    {
+                      "Key": "publickeytoken",
+                      "Value": "91aea0eed4477798"
+                    },
+                    {
+                      "Key": "plugintypeid",
+                      "Value": {"$type":"System.Guid","$value":"f079a425-78a9-428f-8798-bcea48c6d1ba"}
+                    },
+                    {
+                      "Key": "major",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "createdby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "minor",
+                      "Value": {"$type":"System.Int32","$value":0}
+                    },
+                    {
+                      "Key": "plugintypeidunique",
+                      "Value": {"$type":"System.Guid","$value":"c4fa48e5-5dd4-41d3-8906-994ebea36b41"}
+                    },
+                    {
+                      "Key": "componentstate",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                    },
+                    {
+                      "Key": "modifiedon",
+                      "Value": "2020-04-26T08:22:14Z"
+                    },
+                    {
+                      "Key": "culture",
+                      "Value": "neutral"
+                    },
+                    {
+                      "Key": "modifiedby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"df108675-df2b-e911-a964-000d3a3b535a"},"LogicalName":"systemuser","Name":"Sarfraz Khan","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "version",
+                      "Value": "1.0.0.0"
+                    },
+                    {
+                      "Key": "isworkflowactivity",
+                      "Value": {"$type":"System.Boolean","$value":true}
+                    },
+                    {
+                      "Key": "createdon",
+                      "Value": "2020-04-26T07:51:17Z"
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                }
+              ],
+              "LogicalName": "pluginassembly",
+              "Id": "0713e8b0-9287-ea11-a812-000d3a347bb9",
+              "Attributes": [
+                {
+                  "Key": "isolationmode",
+                  "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":2}}
+                },
+                {
+                  "Key": "sourcetype",
+                  "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                },
+                {
+                  "Key": "customizationlevel",
+                  "Value": {"$type":"System.Int32","$value":1}
+                },
+                {
+                  "Key": "name",
+                  "Value": "SKWorkflowActivities"
+                },
+                {
+                  "Key": "modifiedon",
+                  "Value": "2020-04-26T07:51:10Z"
+                },
+                {
+                  "Key": "createdon",
+                  "Value": "2020-04-26T07:51:10Z"
+                },
+                {
+                  "Key": "publickeytoken",
+                  "Value": "91aea0eed4477798"
+                },
+                {
+                  "Key": "culture",
+                  "Value": "neutral"
+                },
+                {
+                  "Key": "pluginassemblyid",
+                  "Value": {"$type":"System.Guid","$value":"0713e8b0-9287-ea11-a812-000d3a347bb9"}
+                },
+                {
+                  "Key": "version",
+                  "Value": "1.0.0.0"
+                }
+              ],
+              "FormattedValues": [],
+              "RelatedEntities": [],
+              "KeyAttributes": []
+            }
+          }
+        }
+      ],
+      "OrganizationName": "org7e8f12c3",
+      "OrganizationDisplayName": "Production",
+      "UserFriendlyName": "https://door.crm.dynamics.com",
+      "SelectedSolution": {
+        "UniqueName": "SKWorkflowActivities",
+        "Id": "954835f9-8387-ea11-a812-000d3a347bb9",
+        "LogicalName": "solution",
+        "Name": "SKWorkflowActivities"
+      },
+      "OrganizationPreferences": {
+        "JavaScriptsPath": "\\Web",
+        "TypeScriptsPath": "\\Web",
+        "ImagesPath": "\\Web",
+        "WebFilesPath": "\\Web",
+        "CSSPath": "\\Web",
+        "XslPath": "\\Web",
+        "XmlPath": "\\Web",
+        "SilverlightPath": "\\Xap",
+        "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+        "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+        "SitemapPath": "\\Sitemap",
+        "ChartsPath": "\\Charts",
+        "ViewPath": "\\Views",
+        "ProxyClassesPath": "\\ProxyClasses",
+        "ProxyEnumClassesPath": "\\Enums",
+        "EmailTemplatesPath": "\\EmailTemplates",
+        "ProcessesPath": "\\Processes",
+        "EntityMetadataPath": "\\EntityMetadata",
+        "PluginConfigurationsPath": "\\PluginConfigurations",
+        "BaseProxyClassRelativePath": "\\",
+        "CustomAssemblyConfigPath": "\\AssemblyConfig",
+        "JavaScriptMinification": 1,
+        "CSSMinification": 1,
+        "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+        "ResourcesPath": "\\Web",
+        "ServiceContextName": "CrmServiceContext",
+        "EnumsFileName": "OptionSetEnums",
+        "BaseProxyClassFileName": "BaseProxyClass",
+        "AutoRefreshProxyClassesOnMetadataChanges": true,
+        "PluginPath": "",
+        "WorkflowPath": "",
+        "GenerateProxyEnumsInSeparateClasses": true,
+        "ProxyClassGenerationOptions": 4,
+        "ProxyClassGenerationMethod": 1,
+        "ProxyClassNamingConvention": 1,
+        "ProxyClassNamingPattern": "{0}",
+        "UseStronglyTypeNameForProxyClassRelatedEntities": true
+      }
+    }
+  ]
+}
