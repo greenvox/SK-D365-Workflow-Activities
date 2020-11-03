@@ -71,6 +71,21 @@ namespace SKWorkflowActivities
 
             return result == null ? string.Empty : result.GetString(attributeName);
         }
-        
+        public static Entity GetEntityByUsingFetch(IOrganizationService service, string entityName, string filter, string fetchFilters)
+        {
+            var fetchXml = $@"
+                    <fetch>
+                      <entity name='{entityName}'>
+                        <all-attributes/>
+                        <filter type='{filter}'>
+                          {fetchFilters}  
+                        </filter>
+                      </entity>
+                    </fetch>";
+
+            var result = service.RetrieveMultiple(new FetchExpression(fetchXml)).Entities.FirstOrDefault();
+            return result;
+        }
+
     }
 }
