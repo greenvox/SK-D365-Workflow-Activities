@@ -1,9 +1,11 @@
 {
   "RecentSetting": {
-    "_organizationURL": "https://door.crm.dynamics.com",
+    "_organizationURL": "https://crm2016dev.magpul.com",
+    "_recentPassword": "WdsyoY4xky7yOV+S0WFzNXIcyMNbgcUvxql8vZNbSN8=",
     "WindowsLoginName": "KhanSarfraz",
-    "RecentUsername": "skhan@door.com",
-    "StoreRecentPassword": false
+    "RecentUsername": "crmadmin@magpul.com",
+    "StoreRecentPassword": true,
+    "ConnectionString": ""
   },
   "UserSolutionSettings": [
     {
@@ -11,6 +13,30 @@
       "WindowsLoginName": "KhanSarfraz",
       "RecentUsername": "skhan@door.com",
       "StoreRecentPassword": false
+    },
+    {
+      "_organizationURL": "https://crm2016dev.magpul.com",
+      "_recentPassword": "WdsyoY4xky7yOV+S0WFzNXIcyMNbgcUvxql8vZNbSN8=",
+      "WindowsLoginName": "KhanSarfraz",
+      "RecentUsername": "crmadmin@magpul.com",
+      "StoreRecentPassword": true,
+      "ConnectionString": ""
+    },
+    {
+      "_organizationURL": "https://crm2016dev.magpul.com",
+      "_recentPassword": "WdsyoY4xky7yOV+S0WFzNXIcyMNbgcUvxql8vZNbSN8=",
+      "WindowsLoginName": "KhanSarfraz",
+      "RecentUsername": "magpul\\crmadmin",
+      "StoreRecentPassword": true,
+      "ConnectionString": "AuthType=AD;Url=https://crm2016dev.magpul.com/;Username=;Password=+:)X'RtCbzc@CGYv"
+    },
+    {
+      "_organizationURL": "https://crm2016dev.magpul.com",
+      "_recentPassword": "WdsyoY4xky7yOV+S0WFzNXIcyMNbgcUvxql8vZNbSN8=",
+      "WindowsLoginName": "KhanSarfraz",
+      "RecentUsername": "magpul\\crmadmin",
+      "StoreRecentPassword": true,
+      "ConnectionString": ""
     }
   ]
 }
