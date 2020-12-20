@@ -51,7 +51,7 @@ namespace SKWorkflowActivities
         [Default("Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36")]
         public InArgument<string> BrowserUserAgent { get; set; }
 
-        [Output("Response")]
+        [Output("SharePoint Url")]
         public OutArgument<string> Response { get; set; }
 
         protected override void Execute(CodeActivityContext executionContext)

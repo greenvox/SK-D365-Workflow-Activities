@@ -20,8 +20,8 @@ namespace SKWorkflowActivities
         public InArgument<string> StageName { get; set; }
 
         [Input("Business Process Flow")]
-        [Default("Opportunity Sales Process")]
-        public InArgument<string> BPF { get; set; }
+        [ReferenceTarget("workflow")]
+        public InArgument<EntityReference> BPF { get; set; }
 
         [Input("Going Backwards?")]
         public InArgument<bool> Backwards { get; set; }
@@ -51,13 +51,18 @@ namespace SKWorkflowActivities
                 qeOpp.Criteria.AddCondition(recEntityIdName, ConditionOperator.Equal, recId);
                 var record = service.RetrieveMultiple(qeOpp).Entities.FirstOrDefault();
 
+
                 //Workflow
-                var qeWorkflow = new QueryExpression("workflow");
-                qeWorkflow.ColumnSet.AddColumns("uniquename", "category", "type", "businessprocesstype");
-                qeWorkflow.Criteria.AddCondition("name", ConditionOperator.Equal, bpf);
-                qeWorkflow.Criteria.AddCondition("category", ConditionOperator.Equal, 4);
-                var workflow = service.RetrieveMultiple(qeWorkflow).Entities.FirstOrDefault();
-                var bpfName = workflow["uniquename"].ToString();
+                var workflow = bpf;
+                var bpfName = workflow.Name;
+                
+                // -- If Workflow were a string field -- //
+                //var qeWorkflow = new QueryExpression("workflow");
+                //qeWorkflow.ColumnSet.AddColumns("uniquename", "category", "type", "businessprocesstype");
+                //qeWorkflow.Criteria.AddCondition("name", ConditionOperator.Equal, bpf);
+                //qeWorkflow.Criteria.AddCondition("category", ConditionOperator.Equal, 4);
+                //var workflow = service.RetrieveMultiple(qeWorkflow).Entities.FirstOrDefault();
+                //var bpfName = workflow["uniquename"].ToString();
 
                 //Stage
                 var qeStage = new QueryExpression("processstage");

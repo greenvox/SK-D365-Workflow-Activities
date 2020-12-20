@@ -105,6 +105,21 @@ namespace SKWorkflowActivities
             return result;
         }
 
+        public static string GetRecordID(string recordURL)
+        {
+
+            if (recordURL == null || recordURL == "")
+            {
+                return "";
+            }
+            string[] urlParts = recordURL.Split("?".ToArray());
+            string[] urlParams = urlParts[1].Split("&".ToCharArray());
+            string objectTypeCode = urlParams[0].Replace("etc=", "");
+            //  entityName =  sGetEntityNameFromCode(objectTypeCode, service);
+            string objectId = urlParams[1].Replace("id=", "");
+            return objectId;
+        }
+
         public static Entity GetEntityByUsingFetch(IOrganizationService service, string entityName, string filter, string fetchFilters, string orderBy)
         {
             var fetchXml = $@"
