@@ -9,7 +9,7 @@ namespace SKWorkflowActivities
 {
     public class ChangeProcessStage : CodeActivity
     {
-        [Input("Record Id")]
+        [Input("Record Id or Url")]
         public InArgument<string> RecordId { get; set; }
 
         [Input("Entity Name")]
@@ -29,6 +29,12 @@ namespace SKWorkflowActivities
         [Output("Status")]
         public OutArgument<string> Status { get; set; }
 
+        [Output("ProcessId")]
+        public OutArgument<string> ProcessId { get; set; }
+
+        [Output("ProcessName")]
+        public OutArgument<string> ProcessName { get; set; }
+
         protected override void Execute(CodeActivityContext executionContext)
         {
             var context = executionContext.GetExtension<IWorkflowContext>();
@@ -46,6 +52,13 @@ namespace SKWorkflowActivities
             //Opportunity
             try
             {
+
+                if (recId.StartsWith("http"))
+                {
+                    string parsedId = CrmUtility.GetRecordID(recId);
+                    recId = parsedId;
+                }
+
                 var qeOpp = new QueryExpression(recEntity);
                 qeOpp.ColumnSet.AddColumns(recEntityIdName);
                 qeOpp.Criteria.AddCondition(recEntityIdName, ConditionOperator.Equal, recId);
@@ -53,10 +66,10 @@ namespace SKWorkflowActivities
 
 
                 //Workflow
-                var workflow = bpf;
-                var bpfName = workflow.Name;
+                var workflow = service.Retrieve(bpf.LogicalName, bpf.Id, new ColumnSet("uniquename"));
+                var bpfName = workflow["uniquename"].ToString();
                 
-                // -- If Workflow were a string field -- //
+
                 //var qeWorkflow = new QueryExpression("workflow");
                 //qeWorkflow.ColumnSet.AddColumns("uniquename", "category", "type", "businessprocesstype");
                 //qeWorkflow.Criteria.AddCondition("name", ConditionOperator.Equal, bpf);
@@ -80,7 +93,8 @@ namespace SKWorkflowActivities
                 qeBPF.Criteria.AddCondition(bpfRelatedLookupName, ConditionOperator.Equal, record.Id);
                 qeBPF.Criteria.AddCondition("statecode", ConditionOperator.Equal, 0);
                 var process = service.RetrieveMultiple(qeBPF).Entities.FirstOrDefault();
-
+                ProcessId.Set(executionContext, process.Id);
+                ProcessName.Set(executionContext, process.LogicalName);
                 var traversedPath = Convert.ToString(process["traversedpath"]);
 
                 if (backwards)

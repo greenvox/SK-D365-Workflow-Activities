@@ -50,6 +50,7 @@
     <Compile Include="ChangeProcessStage.cs" />
     <Compile Include="GetNoteByAttribute.cs" />
     <Compile Include="GetNoteParts.cs" />
+    <Compile Include="GetSingleValueByFetch.cs" />
     <Compile Include="SharePointUploadFile.cs" />
     <Compile Include="SharePointFormDigestAuth.cs" />
     <Compile Include="AssociateOptionSetValue.cs" />
