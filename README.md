@@ -1,5 +1,5 @@
 # SK-D365-Workflow-Activities
-Custom Workflow Activities for D365
+Custom Workflow Activities for D365 (for v8.2)
 
 ### Associate OptionSet Value
 Associate option sets to a field by their value. A gap fix for limited functionality in workflows.
