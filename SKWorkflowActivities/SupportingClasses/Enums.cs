@@ -409,4 +409,96 @@ namespace SKWorkflowActivities
         public const string WhoAmI = "WhoAmI";
         public const string Win = "Win";
     }
+
+    [System.Runtime.Serialization.DataContractAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "8.1.0.239")]
+    public enum ImportModeCode
+    {
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Create = 0,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Update = 1,
+    }
+
+
+    public enum asyncoperation_statuscode
+    {
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        WaitingForResources = 0,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Waiting = 10,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        InProgress = 20,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Pausing = 21,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Canceling = 22,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Succeeded = 30,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Failed = 31,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Canceled = 32,
+    }
+
+
+    [System.Runtime.Serialization.DataContractAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "8.1.0.239")]
+    public enum ImportFileDataDelimiterCode
+    {
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        DoubleQuote = 1,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        None = 2,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        SingleQuote = 3,
+    }
+
+
+    [System.Runtime.Serialization.DataContractAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "8.1.0.239")]
+    public enum ImportFileProcessCode
+    {
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Process = 1,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Ignore = 2,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Internal = 3,
+    }
+
+
+    [System.Runtime.Serialization.DataContractAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "8.1.0.239")]
+    public enum ImportFileFieldDelimiterCode
+    {
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Colon = 1,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Comma = 2,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Tab = 3,
+
+        [System.Runtime.Serialization.EnumMemberAttribute()]
+        Semicolon = 4,
+    }
 }

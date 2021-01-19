@@ -89,6 +89,26 @@ namespace SKWorkflowActivities
 
             return result == null ? string.Empty : result.GetString(attributeName);
         }
+
+        public static int GetTotalCountByFetch(IOrganizationService service, string entityName, string attributeName, string filter, string fieldName, string fieldValue, string fetchFilters, string orderBy)
+        {
+            var fetchXml = $@"
+                    <fetch>
+                      <entity name='{entityName}'>
+                        <attribute name='{attributeName}' />
+                        <filter type='{filter}'>
+                          <condition attribute='{fieldName}' operator='eq' value='{fieldValue}'/>
+                          {fetchFilters}  
+                        </filter>
+                        {orderBy}
+                      </entity>
+                    </fetch>";
+
+            var result = service.RetrieveMultiple(new FetchExpression(fetchXml)).Entities.Count;
+            return result;
+        }
+
+
         public static Entity GetEntityByUsingFetch(IOrganizationService service, string entityName, string filter, string fetchFilters)
         {
             var fetchXml = $@"

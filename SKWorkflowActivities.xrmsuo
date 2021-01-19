@@ -1,9 +1,9 @@
 {
   "RecentSetting": {
-    "_organizationURL": "https://crm2016dev.magpul.com",
-    "_recentPassword": "WdsyoY4xky7yOV+S0WFzNXIcyMNbgcUvxql8vZNbSN8=",
+    "_organizationURL": "http://13.64.93.6:5555/pocd",
+    "_recentPassword": "95DpQbTmN7gF8sob0Yzlqg==",
     "WindowsLoginName": "KhanSarfraz",
-    "RecentUsername": "crmadmin@magpul.com",
+    "RecentUsername": ".\\PGEAdmin",
     "StoreRecentPassword": true,
     "ConnectionString": ""
   },
@@ -35,6 +35,14 @@
       "_recentPassword": "WdsyoY4xky7yOV+S0WFzNXIcyMNbgcUvxql8vZNbSN8=",
       "WindowsLoginName": "KhanSarfraz",
       "RecentUsername": "magpul\\crmadmin",
+      "StoreRecentPassword": true,
+      "ConnectionString": ""
+    },
+    {
+      "_organizationURL": "http://13.64.93.6:5555/pocd",
+      "_recentPassword": "95DpQbTmN7gF8sob0Yzlqg==",
+      "WindowsLoginName": "KhanSarfraz",
+      "RecentUsername": ".\\PGEAdmin",
       "StoreRecentPassword": true,
       "ConnectionString": ""
     }
