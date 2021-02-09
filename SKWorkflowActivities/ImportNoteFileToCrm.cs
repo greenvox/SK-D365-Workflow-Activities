@@ -30,9 +30,11 @@ namespace SKWorkflowActivities
         [Input("Dedupe")]
         public InArgument<bool> Dedupe { get; set; }
 
-
         [Output("Response")]
         public OutArgument<string> Response { get; set; }
+
+        [Output("ImportId")]
+        public OutArgument<string> ImportId { get; set; }
 
         protected override void Execute(CodeActivityContext executionContext)
         {
@@ -123,7 +125,8 @@ namespace SKWorkflowActivities
             request.ImportId = importId;
             ImportRecordsImportResponse response = (ImportRecordsImportResponse)service.Execute(request);
 
-            Response.Set(executionContext, response["AsyncOperationId"].ToString());
+            Response.Set(executionContext, response.ResponseName);
+            ImportId.Set(executionContext, importId.ToString());
 
         }
     }
