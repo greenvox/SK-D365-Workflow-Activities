@@ -84,7 +84,8 @@ namespace SKWorkflowActivities
             
             // Get note body
             byte[] data = Convert.FromBase64String((string)noteRec["documentbody"]);
-            string decodedString = Encoding.UTF8.GetString(data);
+            string terminatorString = Encoding.UTF8.GetString(data);
+            string decodedString = BulkImportHelper.RemoveLastComma(terminatorString);
 
             // Get the current user to set as record owner.
             var systemUserRequest = new WhoAmIRequest();

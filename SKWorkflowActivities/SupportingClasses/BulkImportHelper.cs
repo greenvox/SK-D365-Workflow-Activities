@@ -5,6 +5,7 @@ using Microsoft.Xrm.Sdk.Client;
 using Microsoft.Xrm.Sdk.Query;
 using Microsoft.Xrm.Tooling.Connector;
 using System.Activities;
+using System.Text.RegularExpressions;
 
 namespace SKWorkflowActivities
 {
@@ -15,6 +16,13 @@ namespace SKWorkflowActivities
          /// </summary>
          /// <param name="filePath"></param>
          /// <returns></returns>
+        public static string RemoveLastComma(string csvString)
+        {
+            var str = csvString;
+            var output = Regex.Replace(str, @",\r\n", "\r\n");
+            return output;
+        }
+
         public static string ReadCsvFile(string filePath)
         {
             string data = string.Empty;

@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChangeProcessStage.cs" />
+    <Compile Include="FixCsvFile.cs" />
     <Compile Include="GetNoteByAttribute.cs" />
     <Compile Include="GetNoteParts.cs" />
     <Compile Include="GetSingleValueByFetch.cs" />
