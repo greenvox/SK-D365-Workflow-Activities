@@ -7,6 +7,7 @@ using Microsoft.Xrm.Sdk.Query;
 using Microsoft.Crm.Sdk.Messages;
 using System.Text;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace SKWorkflowActivities
 {
@@ -84,8 +85,10 @@ namespace SKWorkflowActivities
             
             // Get note body
             byte[] data = Convert.FromBase64String((string)noteRec["documentbody"]);
-            string terminatorString = Encoding.UTF8.GetString(data);
-            string decodedString = BulkImportHelper.RemoveLastComma(terminatorString);
+            string inStr = Encoding.UTF8.GetString(data);
+            string outStr1 = Regex.Replace(inStr, @",\r\n", "\r\n");
+            string outStr2 = Regex.Replace(outStr1, @",$", "");
+            string decodedString = outStr2;
 
             // Get the current user to set as record owner.
             var systemUserRequest = new WhoAmIRequest();

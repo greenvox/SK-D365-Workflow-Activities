@@ -52,6 +52,7 @@
     <Compile Include="GetNoteByAttribute.cs" />
     <Compile Include="GetNoteParts.cs" />
     <Compile Include="GetSingleValueByFetch.cs" />
+    <Compile Include="ImportGetImportStatus.cs" />
     <Compile Include="ImportNoteFileToCrm.cs" />
     <Compile Include="ImportRecordsAction.cs" />
     <Compile Include="ImportTransformAction.cs" />

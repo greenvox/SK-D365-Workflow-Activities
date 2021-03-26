@@ -5,7 +5,7 @@ using System;
 
 namespace SKWorkflowActivities
 {
-    public class GetSigneValueByFetch : CodeActivity
+    public class GetSingleValueByFetch : CodeActivity
     {
         [RequiredArgument]
         [Input("Search For Value")]

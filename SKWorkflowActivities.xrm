@@ -2891,7 +2891,7 @@
                     },
                     {
                       "Key": "modifiedon",
-                      "Value": "2021-02-26T06:24:50Z"
+                      "Value": "2021-02-26T14:56:11Z"
                     },
                     {
                       "Key": "assemblyname",
@@ -5875,7 +5875,7 @@
                   "LogicalName": "plugintype",
                   "PluginClassType": 2,
                   "ConfigurationIsSupplied": true,
-                  "Id": "00000000-0000-0000-0000-000000000000",
+                  "Id": "103a2d58-fb77-eb11-8b84-00224806dfd9",
                   "Attributes": [
                     {
                       "Key": "name",
@@ -5888,6 +5888,114 @@
                     {
                       "Key": "typename",
                       "Value": "SKWorkflowActivities.FixCsvFile"
+                    },
+                    {
+                      "Key": "workflowactivitygroupname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"e1b98099-106b-eb11-8b83-00224806dfd9"},"LogicalName":"pluginassembly","Name":"SKWorkflowActivities","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "minor",
+                      "Value": {"$type":"System.Int32","$value":0}
+                    },
+                    {
+                      "Key": "ismanaged",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "customworkflowactivityinfo",
+                      "Value": "\u003c?xml version=\u00221.0\u0022 encoding=\u0022utf-16\u0022?\u003e\r\n\u003cSandboxCustomActivityInfo xmlns:xsd=\u0022http://www.w3.org/2001/XMLSchema\u0022 xmlns:xsi=\u0022http://www.w3.org/2001/XMLSchema-instance\u0022\u003e\r\n  \u003cCustomActivityInfo\u003e\r\n    \u003cName\u003eSKWorkflowActivities.FixCsvFile\u003c/Name\u003e\r\n    \u003cPluginTypeId\u003e103a2d58-fb77-eb11-8b84-00224806dfd9\u003c/PluginTypeId\u003e\r\n    \u003cGroupName\u003eSKWorkflowActivities\u003c/GroupName\u003e\r\n    \u003cIsNet4\u003etrue\u003c/IsNet4\u003e\r\n    \u003cTypeName\u003eSKWorkflowActivities.FixCsvFile\u003c/TypeName\u003e\r\n    \u003cAssemblyName\u003eSKWorkflowActivities\u003c/AssemblyName\u003e\r\n    \u003cPublicKeyToken\u003e9cb0ff4f706f8c6e\u003c/PublicKeyToken\u003e\r\n    \u003cCulture\u003eneutral\u003c/Culture\u003e\r\n    \u003cAssemblyVersion\u003e1.0.0.0\u003c/AssemblyVersion\u003e\r\n  \u003c/CustomActivityInfo\u003e\r\n  \u003cInputs\u003e\r\n    \u003cCustomActivityParameterInfo\u003e\r\n      \u003cName\u003eNote\u003c/Name\u003e\r\n      \u003cTypeName\u003eMicrosoft.Crm.Sdk.Lookup, Microsoft.Crm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\u003c/TypeName\u003e\r\n      \u003cIsInOutArgument\u003etrue\u003c/IsInOutArgument\u003e\r\n      \u003cWorkflowAttributeType\u003eBoolean\u003c/WorkflowAttributeType\u003e\r\n      \u003cRequired\u003efalse\u003c/Required\u003e\r\n      \u003cDependencyPropertyName\u003eAnnotationId\u003c/DependencyPropertyName\u003e\r\n      \u003cEntityNames\u003e\r\n        \u003cstring\u003eannotation\u003c/string\u003e\r\n      \u003c/EntityNames\u003e\r\n      \u003cIdentifierDefinition xsi:nil=\u0022true\u0022 /\u003e\r\n    \u003c/CustomActivityParameterInfo\u003e\r\n  \u003c/Inputs\u003e\r\n  \u003cOutputs /\u003e\r\n  \u003cAssemblyQualifiedName\u003eSKWorkflowActivities.FixCsvFile, SKWorkflowActivities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9cb0ff4f706f8c6e\u003c/AssemblyQualifiedName\u003e\r\n  \u003cValidationError /\u003e\r\n\u003c/SandboxCustomActivityInfo\u003e"
+                    },
+                    {
+                      "Key": "modifiedon",
+                      "Value": "2021-02-26T18:00:11Z"
+                    },
+                    {
+                      "Key": "assemblyname",
+                      "Value": "SKWorkflowActivities"
+                    },
+                    {
+                      "Key": "plugintypeid",
+                      "Value": {"$type":"System.Guid","$value":"103a2d58-fb77-eb11-8b84-00224806dfd9"}
+                    },
+                    {
+                      "Key": "organizationid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"5d42f78d-a6b5-ea11-8187-0050568a25f2"},"LogicalName":"organization","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "isworkflowactivity",
+                      "Value": {"$type":"System.Boolean","$value":true}
+                    },
+                    {
+                      "Key": "createdby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"5434ea9e-6e5d-ea11-8180-005056ae1320"},"LogicalName":"systemuser","Name":"Eunice Park","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "plugintypeidunique",
+                      "Value": {"$type":"System.Guid","$value":"f0505a63-9134-4892-bf5c-2c4db37256fe"}
+                    },
+                    {
+                      "Key": "componentstate",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                    },
+                    {
+                      "Key": "major",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "publickeytoken",
+                      "Value": "9cb0ff4f706f8c6e"
+                    },
+                    {
+                      "Key": "culture",
+                      "Value": "neutral"
+                    },
+                    {
+                      "Key": "modifiedby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"5434ea9e-6e5d-ea11-8180-005056ae1320"},"LogicalName":"systemuser","Name":"Eunice Park","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "version",
+                      "Value": "1.0.0.0"
+                    },
+                    {
+                      "Key": "solutionid",
+                      "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                    },
+                    {
+                      "Key": "createdon",
+                      "Value": "2021-02-26T06:24:57Z"
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                },
+                {
+                  "_steps": [],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 2,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "00000000-0000-0000-0000-000000000000",
+                  "Attributes": [
+                    {
+                      "Key": "name",
+                      "Value": "SKWorkflowActivities.ImportGetImportStatus"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "SKWorkflowActivities.ImportGetImportStatus"
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "SKWorkflowActivities.ImportGetImportStatus"
                     },
                     {
                       "Key": "workflowactivitygroupname",
@@ -5928,7 +6036,7 @@
                 },
                 {
                   "Key": "modifiedon",
-                  "Value": "2021-02-26T06:24:28Z"
+                  "Value": "2021-03-02T03:56:30Z"
                 },
                 {
                   "Key": "createdon",

@@ -19,8 +19,10 @@ namespace SKWorkflowActivities
         public static string RemoveLastComma(string csvString)
         {
             var str = csvString;
-            var output = Regex.Replace(str, @",\r\n", "\r\n");
-            return output;
+            var outStr1 = Regex.Replace(str, @",\r\n", "\r\n");
+            var outStr2 = Regex.Replace(outStr1, @",$", "");
+
+            return outStr2;
         }
 
         public static string ReadCsvFile(string filePath)
